@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Household membership form · Dr. CRP Nagar</title>
+  <link rel="stylesheet" href="../css/paper.css">
+</head>
+<body>
+  <article class="sheet">
+    <header class="letterhead">
+      <div>
+        <h1>Dr. CRP Nagar Residents' Association</h1>
+        <p class="muted">Chempakaraman Pillai Nagar, Pangappara, Thiruvananthapuram 695581</p>
+      </div>
+      <p>Household form</p>
+    </header>
+    <h2>Membership details</h2>
+    <p>Fill this in and hand it to the secretary. The website does not store what you type here.</p>
+    <form>
+      <div class="row">
+        <label>Name <input name="name" autocomplete="name"></label>
+        <label>House number <input name="house"></label>
+      </div>
+      <div class="row">
+        <label>Phone <input name="phone" type="tel" autocomplete="tel"></label>
+        <label>Email <input name="email" type="email" autocomplete="email"></label>
+      </div>
+      <label class="check">Household is
+        <select name="occupancy">
+          <option>Owner</option>
+          <option>Tenant</option>
+        </select>
+      </label>
+      <div class="row">
+        <label>Number of residents <input name="residents" inputmode="numeric"></label>
+        <label>Vehicle numbers <input name="vehicles"></label>
+      </div>
+      <label>Anything the secretary should know <textarea name="note" rows="4"></textarea></label>
+      <div class="sign">
+        <div><div class="line"></div><p>Signature</p></div>
+        <div><div class="line"></div><p>Date</p></div>
+      </div>
+    </form>
+    <p class="actions no-print">
+      <button type="button" onclick="window.print()">Print or save as PDF</button>
+      <a class="back" href="../">Back to the website</a>
+    </p>
+  </article>
+</body>
+</html>

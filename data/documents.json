@@ -1,0 +1,38 @@
+{
+  "sample": true,
+  "intro": "Forms and papers a household can open or print. Online complaint tracking is not switched on yet, so the complaint form is a paper form.",
+  "items": [
+    {
+      "id": "membership-form",
+      "title": "Household membership form",
+      "category": "Forms",
+      "date": "2026-10-07",
+      "summary": "A blank form for a household to fill and hand to the secretary.",
+      "href": "documents/membership-form.html"
+    },
+    {
+      "id": "complaint-form",
+      "title": "Complaint form",
+      "category": "Forms",
+      "date": "2026-10-07",
+      "summary": "A paper complaint, until the residents’ portal can track one.",
+      "href": "documents/complaint-form.html"
+    },
+    {
+      "id": "sample-minutes",
+      "title": "Sample minutes",
+      "category": "Minutes",
+      "date": "2026-09-20",
+      "summary": "A draft layout for meeting minutes. Not a record of a real meeting.",
+      "href": "documents/sample-minutes.html"
+    },
+    {
+      "id": "bylaws-outline",
+      "title": "Bylaws outline",
+      "category": "Governance",
+      "date": "2026-10-07",
+      "summary": "Headings the general body can fill in. This is not an adopted bylaw.",
+      "href": "documents/bylaws-outline.html"
+    }
+  ]
+}

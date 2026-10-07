@@ -1,0 +1,46 @@
+{
+  "term": "",
+  "intro": "The managing committee looks after day-to-day work between general body meetings. Names and phone numbers appear here when the association publishes them.",
+  "members": [
+    {
+      "id": "president",
+      "role": "President",
+      "name": "",
+      "phone": "",
+      "house": "",
+      "duty": "Calls meetings and speaks for the association with the ward and government offices."
+    },
+    {
+      "id": "vice-president",
+      "role": "Vice President",
+      "name": "",
+      "phone": "",
+      "house": "",
+      "duty": "Supports the president and stands in when the president is away."
+    },
+    {
+      "id": "secretary",
+      "role": "Secretary",
+      "name": "",
+      "phone": "",
+      "house": "",
+      "duty": "Sends notices, keeps minutes, and handles the association’s letters."
+    },
+    {
+      "id": "joint-secretary",
+      "role": "Joint Secretary",
+      "name": "",
+      "phone": "",
+      "house": "",
+      "duty": "Helps with records, follow-up, and the arrangements for meetings."
+    },
+    {
+      "id": "treasurer",
+      "role": "Treasurer",
+      "name": "",
+      "phone": "",
+      "house": "",
+      "duty": "Keeps collections and payments, and places the accounts before the general body."
+    }
+  ]
+}

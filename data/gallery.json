@@ -1,0 +1,54 @@
+{
+  "sample": true,
+  "intro": "Photographs of the neighbourhood can be added album by album. Until then, these drawings only show where the pictures will sit.",
+  "items": [
+    {
+      "id": "lanes",
+      "album": "Neighbourhood",
+      "title": "The lanes",
+      "caption": "Replace this drawing with a photograph.",
+      "alt": "Drawing of two houses, a tree, and a lane",
+      "src": "assets/gallery/lanes.svg"
+    },
+    {
+      "id": "shade",
+      "album": "Neighbourhood",
+      "title": "Shade and a bench",
+      "caption": "A place for a photograph of a common corner.",
+      "alt": "Drawing of a tree and a bench",
+      "src": "assets/gallery/shade.svg"
+    },
+    {
+      "id": "gathering",
+      "album": "Gatherings",
+      "title": "A gathering",
+      "caption": "Drawings stand in for festival or meeting photographs.",
+      "alt": "Drawing of a pookalam and two lamps",
+      "src": "assets/gallery/gathering.svg"
+    },
+    {
+      "id": "meeting",
+      "album": "Gatherings",
+      "title": "A meeting table",
+      "caption": "Add a photograph from a general body meeting when you have one.",
+      "alt": "Drawing of a meeting table and chairs",
+      "src": "assets/gallery/meeting.svg"
+    },
+    {
+      "id": "monsoon",
+      "album": "Upkeep",
+      "title": "Monsoon",
+      "caption": "A place for photographs of drains and rain work.",
+      "alt": "Drawing of rain over a roof",
+      "src": "assets/gallery/monsoon.svg"
+    },
+    {
+      "id": "evening",
+      "album": "Upkeep",
+      "title": "Evening lights",
+      "caption": "A place for photographs after a lighting repair.",
+      "alt": "Drawing of houses with lit windows at dusk",
+      "src": "assets/gallery/evening.svg"
+    }
+  ]
+}

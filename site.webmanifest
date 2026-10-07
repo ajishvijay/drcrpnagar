@@ -1,0 +1,15 @@
+{
+  "name": "Dr. CRP Nagar Residents' Association",
+  "short_name": "CRP Nagar",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#f3eee6",
+  "theme_color": "#13281f",
+  "icons": [
+    {
+      "src": "assets/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "sample": true,
+  "intro": "Meetings and neighbourhood gatherings. Add an event to your own calendar from its page. Sample dates below are not confirmed.",
+  "items": [
+    {
+      "id": "lane-walk",
+      "date": "2026-10-18",
+      "start": "17:30",
+      "end": "18:30",
+      "title": "Lane walk and lighting check",
+      "venue": "Meet at the CRP Nagar Road junction",
+      "summary": "A short walk to note lights and drains that need follow-up.",
+      "body": [
+        "This is a sample event. Confirm any real walk with the committee before you go.",
+        "The idea of the walk is simple: note the pole, the drain, or the spot, and pass that list to the secretary."
+      ]
+    },
+    {
+      "id": "november-meeting",
+      "date": "2026-11-08",
+      "start": "17:00",
+      "end": "18:30",
+      "title": "Monthly residents' meeting",
+      "venue": "Place to be announced",
+      "summary": "A sample date for the monthly meeting.",
+      "body": [
+        "This date is a placeholder. A real meeting notice should name the place and the agenda.",
+        "Households can send a topic through the contact page before the meeting."
+      ]
+    },
+    {
+      "id": "independence-day",
+      "date": "2026-08-15",
+      "start": "08:30",
+      "end": "09:30",
+      "title": "Independence Day gathering",
+      "venue": "Open ground in the neighbourhood",
+      "summary": "A sample of how a past gathering stays on the page.",
+      "body": [
+        "This is a sample past event, kept so the archive has a shape. It is not a report of a gathering that happened."
+      ]
+    }
+  ]
+}

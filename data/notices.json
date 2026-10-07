@@ -1,0 +1,62 @@
+{
+  "sample": true,
+  "intro": "Announcements, meeting dates, and minutes from the association. Pinned items stay at the top of the list.",
+  "items": [
+    {
+      "id": "waste-collection-october",
+      "date": "2026-10-02",
+      "category": "Maintenance",
+      "pinned": true,
+      "title": "Waste collection timing this week",
+      "summary": "A sample announcement about when households should put waste out.",
+      "body": [
+        "This is a sample announcement. Replace it with the real collection days before you treat the site as official.",
+        "Households are asked to keep waste at the gate only during the collection window announced by the committee. Please do not leave it out overnight."
+      ],
+      "attachment": {
+        "label": "Download this notice",
+        "href": "documents/sample-notice.html"
+      }
+    },
+    {
+      "id": "september-minutes",
+      "date": "2026-09-20",
+      "category": "Minutes",
+      "pinned": false,
+      "title": "Minutes of the September residents' meeting",
+      "summary": "A sample set of minutes, so the download and the notice page can be checked.",
+      "body": [
+        "This is a sample. It is not a record of a meeting that took place.",
+        "The linked file shows how minutes can be opened, printed, and kept with the notice."
+      ],
+      "attachment": {
+        "label": "Download the minutes",
+        "href": "documents/sample-minutes.html"
+      }
+    },
+    {
+      "id": "streetlight-followup",
+      "date": "2026-10-05",
+      "category": "Maintenance",
+      "pinned": false,
+      "title": "Street-light complaints noted for follow-up",
+      "summary": "A sample note that a common lighting problem has been listed for the section office.",
+      "body": [
+        "This is a sample notice. Use this shape when a real lighting or drain problem is being followed up.",
+        "Residents can still call the electricity helpline on 1912 for a failed supply. The association notice is only for the shared follow-up."
+      ]
+    },
+    {
+      "id": "november-meeting",
+      "date": "2026-10-07",
+      "category": "Meetings",
+      "pinned": false,
+      "title": "Monthly meeting proposed for November",
+      "summary": "A sample meeting notice. The date is not confirmed.",
+      "body": [
+        "This is a sample. Do not treat the November date as a real meeting until the committee publishes it.",
+        "A real notice should say the date, the time, the place, and how a household can send a matter for the agenda."
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "_readme": "Edit this file for the name, address, phone, email, WhatsApp number, and map. Set publish to true when the content is official. Keys starting with _ are not shown on the site.",
+  "name": "Dr. CRP Nagar Residents' Association",
+  "shortName": "Dr. CRP Nagar",
+  "kind": "Residents' Association",
+  "nameMl": "ഡോ. സി.ആർ.പി. നഗർ റസിഡന്റ്സ് അസോസിയേഷൻ",
+  "description": "Notices, events, contacts, and documents of the Dr. CRP Nagar Residents' Association, Pangappara, Thiruvananthapuram.",
+  "placeLine": "Pangappara, Thiruvananthapuram · 695581",
+  "publish": false,
+  "previewText": "Preview site. Sample notices, events, and documents are placeholders, not official announcements.",
+  "updated": "2026-10-07",
+  "hero": {
+    "kicker": "Residents' Association · Pangappara",
+    "title": "Looking after our lanes, together.",
+    "text": "Notices, meetings, documents, and the people to call — in one place for every household in Dr. CRP Nagar."
+  },
+  "address": {
+    "line1": "Dr. CRP Nagar",
+    "line2": "Chempakaraman Pillai Nagar, Pangappara",
+    "city": "Thiruvananthapuram",
+    "state": "Kerala",
+    "pin": "695581",
+    "country": "India"
+  },
+  "map": {
+    "query": "CRP Nagar Road, Pangappara, Thiruvananthapuram, Kerala 695581",
+    "title": "CRP Nagar Road, Pangappara",
+    "note": "The map is centred on CRP Nagar Road. It can be moved to a gate or another landmark when the association chooses one."
+  },
+  "contact": {
+    "intro": "Write to the association about a lane, a notice, membership, or a complaint. Messages are not stored on this website.",
+    "phone": "",
+    "email": "",
+    "hours": "Office hours will be published here."
+  },
+  "whatsapp": {
+    "number": "",
+    "prefill": "Hello, I am a resident of Dr. CRP Nagar."
+  },
+  "portal": {
+    "title": "Residents' portal",
+    "status": "Not open yet",
+    "text": "A private section for residents is planned. It is not open, and this page does not ask for a password.",
+    "publicNote": "Notices, events, emergency numbers, and documents stay public. You do not need an account to read them.",
+    "modules": [
+      {
+        "title": "Membership",
+        "text": "A household register, once the association decides to keep it online."
+      },
+      {
+        "title": "Complaints",
+        "text": "Raise a concern and see whether the committee has taken it up."
+      },
+      {
+        "title": "Dues",
+        "text": "Receipts and pending amounts, visible only to that household."
+      },
+      {
+        "title": "Admin",
+        "text": "Committee tools to publish notices, events, minutes, and documents."
+      }
+    ]
+  }
+}

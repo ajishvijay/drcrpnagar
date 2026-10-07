@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+# The pages also send noindex until data/site.json has "publish": true.

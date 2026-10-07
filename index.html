@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    (function () {
+      var parts = location.pathname.split("/");
+      var index = -1;
+      for (var i = 0; i < parts.length; i++) {
+        if (parts[i].toLowerCase() === "drcrpnagar") {
+          index = i;
+          break;
+        }
+      }
+      var href = "/";
+      if (index !== -1) href = parts.slice(0, index + 1).join("/") + "/";
+      var base = document.createElement("base");
+      base.setAttribute("href", href);
+      document.head.prepend(base);
+    })();
+  </script>
+  <title>Dr. CRP Nagar Residents' Association</title>
+  <meta name="description" content="Notices, events, contacts, and documents of the Dr. CRP Nagar Residents' Association, Pangappara, Thiruvananthapuram.">
+  <meta name="theme-color" content="#13281f">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,620&family=Noto+Sans+Malayalam:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div id="boot" class="boot" role="status">
+    <p class="boot-mark" aria-hidden="true"></p>
+    <p>Dr. CRP Nagar</p>
+    <p class="boot-sub">Residents' Association</p>
+  </div>
+  <div id="app"></div>
+  <noscript>
+    <p class="noscript">This website needs JavaScript to show notices, events, and contacts. You can still open the files in the documents folder.</p>
+  </noscript>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

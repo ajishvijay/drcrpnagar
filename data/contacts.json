@@ -1,0 +1,65 @@
+{
+  "intro": "Numbers for the association and for the public desks residents use. For danger, fire, or a medical emergency, use the emergency page first.",
+  "groups": [
+    {
+      "title": "Association",
+      "note": "Add the secretary’s phone and any lane representative in this list.",
+      "items": [
+        {
+          "name": "Association desk",
+          "detail": "Day-to-day questions, notices, and membership papers.",
+          "phone": "",
+          "note": "The phone number is published from the site settings once the committee adds it."
+        },
+        {
+          "name": "Secretary",
+          "detail": "Notices, minutes, and letters.",
+          "phone": "",
+          "note": "Add the name and number on the committee page."
+        }
+      ]
+    },
+    {
+      "title": "Electricity and water",
+      "note": "Statewide helplines published by the Kerala State Disaster Management Authority. They are not association numbers.",
+      "items": [
+        {
+          "name": "KSEB helpline",
+          "detail": "Electricity complaints.",
+          "phone": "1912",
+          "note": "Also listed by KSDMA as 0484-2555950."
+        },
+        {
+          "name": "Kerala Water Authority helpline",
+          "detail": "Water supply complaints.",
+          "phone": "1916",
+          "note": "KSDMA also lists 0471-2738300."
+        }
+      ]
+    },
+    {
+      "title": "Civic desks to add",
+      "note": "Leave these blank until someone confirms the current number. A wrong ward or station number is worse than a blank one.",
+      "items": [
+        {
+          "name": "Ward office / councillor",
+          "detail": "Corporation matters for this ward.",
+          "phone": "",
+          "note": "Add the ward name and the current number."
+        },
+        {
+          "name": "Local police station",
+          "detail": "For a non-emergency report after you have called 112 if there is danger.",
+          "phone": "",
+          "note": "Add the station that covers Dr. CRP Nagar."
+        },
+        {
+          "name": "Nearest hospital",
+          "detail": "The hospital residents actually use.",
+          "phone": "",
+          "note": "Add the name and the reception number."
+        }
+      ]
+    }
+  ]
+}

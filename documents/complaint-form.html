@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Complaint form · Dr. CRP Nagar</title>
+  <link rel="stylesheet" href="../css/paper.css">
+</head>
+<body>
+  <article class="sheet">
+    <header class="letterhead">
+      <div>
+        <h1>Dr. CRP Nagar Residents' Association</h1>
+        <p class="muted">Chempakaraman Pillai Nagar, Pangappara, Thiruvananthapuram 695581</p>
+      </div>
+      <p>Complaint</p>
+    </header>
+    <p>Until online complaint tracking opens, fill this in and give it to the committee, or send the same details on WhatsApp. For danger, fire, or a medical emergency, call 112 instead of using this form.</p>
+    <form>
+      <div class="row">
+        <label>Name <input name="name" autocomplete="name"></label>
+        <label>House number <input name="house"></label>
+      </div>
+      <div class="row">
+        <label>Phone <input name="phone" type="tel"></label>
+        <label>Date <input name="date" type="date"></label>
+      </div>
+      <label>What is it about
+        <select name="topic">
+          <option>Waste</option>
+          <option>Street light</option>
+          <option>Water</option>
+          <option>Drain</option>
+          <option>Road</option>
+          <option>Safety</option>
+          <option>Other</option>
+        </select>
+      </label>
+      <label>Where <input name="where" placeholder="Lane, pole, or house"></label>
+      <label>What happened <textarea name="details" rows="6"></textarea></label>
+      <div class="sign">
+        <div><div class="line"></div><p>Signature</p></div>
+        <div><div class="line"></div><p>Received by</p></div>
+      </div>
+    </form>
+    <p class="actions no-print">
+      <button type="button" onclick="window.print()">Print or save as PDF</button>
+      <a class="back" href="../">Back to the website</a>
+    </p>
+  </article>
+</body>
+</html>

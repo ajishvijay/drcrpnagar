@@ -1,0 +1,36 @@
+{
+  "intro": "Call 112 first if someone is in danger, there is a fire, or you need an ambulance. The other numbers are public helplines, not lines run by the association.",
+  "primary": {
+    "phone": "112",
+    "label": "National emergency number. Police, fire, and medical help."
+  },
+  "source": "112, 100, 101, 102, 108, 181, 1091, and 1098, and the district control-room numbers, are published by the District administration and Kerala Police. 1070, 1077, 1079, 1912, and 1916 are published in the Kerala State Disaster Management Authority directory. Check those pages if a number changes.",
+  "groups": [
+    {
+      "title": "Services",
+      "items": [
+        { "phone": "100", "label": "Police", "note": "Also reached through 112." },
+        { "phone": "101", "label": "Fire and rescue", "note": "Also reached through 112." },
+        { "phone": "108", "label": "Ambulance", "note": "KSDMA lists 108 for ambulance service." },
+        { "phone": "102", "label": "Ambulance", "note": "The district helpline page lists 102 as ambulance." }
+      ]
+    },
+    {
+      "title": "Women and children",
+      "items": [
+        { "phone": "181", "label": "Women’s helpline", "note": "Listed for domestic abuse on the district helpline page." },
+        { "phone": "1091", "label": "Women’s helpline", "note": "Also on the district helpline page." },
+        { "phone": "1098", "label": "Childline", "note": "Children in a difficult situation." }
+      ]
+    },
+    {
+      "title": "District desks",
+      "items": [
+        { "phone": "0471-2730067", "label": "District control room", "note": "Thiruvananthapuram district helpline page." },
+        { "phone": "0471-2730045", "label": "District emergency operations", "note": "Listed as disaster management services." },
+        { "phone": "1077", "label": "District control room", "note": "KSDMA disaster directory." },
+        { "phone": "1070", "label": "State emergency helpline", "note": "KSDMA also lists 1079." }
+      ]
+    }
+  ]
+}

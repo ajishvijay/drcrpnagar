@@ -1,0 +1,56 @@
+{
+  "homeTitle": "A common voice for the households here.",
+  "lead": "Dr. CRP Nagar Residents' Association speaks for the households of Chempakaraman Pillai Nagar, Pangappara. The public site carries notices, meetings, contacts, and papers that every resident should be able to find.",
+  "paragraphs": [
+    "The association looks after shared concerns: lanes and lighting, waste, water and power follow-up, and the gatherings that keep neighbours known to one another. It is not a substitute for the corporation, the police, or the electricity and water departments. It is the place those concerns are collected and taken to the right desk.",
+    "This website is public on purpose. Emergency numbers, notices, and forms should not sit behind a login. A residents-only section, for membership and complaints, can be added later without replacing these pages."
+  ],
+  "responsibilities": [
+    {
+      "title": "Lanes and lighting",
+      "text": "Follow up on street lights, drains, and other problems that affect more than one house."
+    },
+    {
+      "title": "Waste",
+      "text": "Share collection days and ask households to put waste out only in that window."
+    },
+    {
+      "title": "Water and power",
+      "text": "Pass common supply problems to the Kerala Water Authority and KSEB section offices."
+    },
+    {
+      "title": "Safety",
+      "text": "For danger, call 112. The association can still record a repeated concern for the committee to raise."
+    },
+    {
+      "title": "Meetings",
+      "text": "Publish the date, the place, and the minutes so a household that could not attend can still read what was decided."
+    },
+    {
+      "title": "Gatherings",
+      "text": "Make room for festivals and small neighbourhood events when residents want them."
+    }
+  ],
+  "howWeWork": [
+    {
+      "title": "The general body decides",
+      "text": "Households meet, discuss, and decide. The committee does not replace that meeting."
+    },
+    {
+      "title": "The committee carries the day-to-day work",
+      "text": "Office bearers follow up between meetings and report back."
+    },
+    {
+      "title": "Money is reported",
+      "text": "Collections and spending are for the general body to see. Accounts can be attached with the minutes."
+    }
+  ],
+  "area": {
+    "title": "The area this site is for",
+    "points": [
+      "Dr. CRP Nagar, also known as CRP Nagar and Chempakaraman Pillai Nagar.",
+      "Pangappara, Thiruvananthapuram, Kerala 695581.",
+      "If a lane or a row of houses should be named on this page, the secretary can add it."
+    ]
+  }
+}
