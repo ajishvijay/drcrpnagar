@@ -592,6 +592,17 @@ a { color: var(--leaf); }
 
 .map-tall { height: 460px; }
 
+.house-table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 18px; background: var(--card); }
+.house-table { width: 100%; border-collapse: collapse; min-width: 640px; }
+.house-table th, .house-table td { text-align: left; padding: 12px 14px; border-bottom: 1px solid var(--line); vertical-align: top; }
+.house-table thead th { font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+.house-table tbody th { font-family: var(--serif); font-size: 1.2rem; font-weight: 560; white-space: nowrap; }
+.house-table tr:last-child th, .house-table tr:last-child td { border-bottom: 0; }
+.tag-occupied { background: var(--leaf-soft); color: var(--leaf); }
+.tag-vacant { background: #f3eee6; color: var(--muted); }
+.tag-institution { background: #f6e7c8; color: #6a4b12; }
+.tag-unrecorded { background: #fde8df; color: #8d3b16; }
+
 .contact-form { display: flex; flex-direction: column; gap: 12px; }
 .contact-form label { display: flex; flex-direction: column; gap: 6px; font-weight: 650; }
 

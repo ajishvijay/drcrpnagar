@@ -23,6 +23,7 @@ const ROUTES = [
   { re: /^\/notices\/([a-z0-9-]+)$/, name: "notice", keys: ["id"], title: (data, params) => findById(data.notices.items, params.id)?.title || "Notice" },
   { re: /^\/events$/, name: "events", title: () => "Events" },
   { re: /^\/events\/([a-z0-9-]+)$/, name: "event", keys: ["id"], title: (data, params) => findById(data.events.items, params.id)?.title || "Event" },
+  { re: /^\/houses$/, name: "houses", title: () => "House directory" },
   { re: /^\/gallery$/, name: "gallery", title: () => "Gallery" },
   { re: /^\/contacts$/, name: "contacts", title: () => "Important contacts" },
   { re: /^\/documents$/, name: "documents", title: () => "Documents and forms" },
@@ -64,6 +65,7 @@ const PAGES = {
   notice: renderNotice,
   events: renderEvents,
   event: renderEvent,
+  houses: renderHouses,
   gallery: renderGallery,
   contacts: renderContacts,
   documents: renderDocuments,
@@ -226,7 +228,7 @@ function renderHome(data) {
             "div",
             { class: "hero-actions" },
             h("a", { class: "button", href: mapsLink(site.map.query), target: "_blank", rel: "noopener noreferrer" }, "Open in Google Maps", icon("external")),
-            h("a", { class: "button button-ghost", href: "contact" }, "Contact")
+            h("a", { class: "button button-ghost", href: "houses" }, "House directory")
           )
         ),
         mapFrame(site, false)
@@ -467,6 +469,153 @@ function renderEvent(data, params) {
       )
     )
   );
+}
+
+function renderHouses(data) {
+  const { houses } = data;
+  const items = [...(houses.items || [])].sort(compareHouseNumbers);
+  const state = { query: "", status: "all" };
+  const list = h("div", { class: "house-list" });
+  const count = h("p", { class: "fine" });
+
+  function draw() {
+    const query = state.query.trim().toLowerCase();
+    const shown = items.filter((item) => {
+      const statusOk = state.status === "all" || item.status === state.status;
+      const haystack = `${item.number} ${item.name} ${item.house}`.toLowerCase();
+      return statusOk && (!query || haystack.includes(query));
+    });
+    count.textContent = shown.length === 1 ? "1 record" : `${shown.length} records`;
+    list.replaceChildren(
+      shown.length
+        ? h("div", { class: "house-table-wrap" }, houseTable(shown))
+        : empty("No house matches that search.")
+    );
+  }
+
+  const chips = h("div", { class: "chips", role: "toolbar", "aria-label": "Filter houses" });
+  const filters = [
+    ["all", "All"],
+    ["occupied", "Occupied"],
+    ["vacant", "Vacant"],
+    ["institution", "Church and temple"],
+    ["unrecorded", "Name not recorded"]
+  ];
+  function paintChips() {
+    chips.replaceChildren(
+      ...filters.map(([id, label]) =>
+        h(
+          "button",
+          {
+            type: "button",
+            class: state.status === id ? "chip is-on" : "chip",
+            "aria-pressed": state.status === id ? "true" : "false",
+            onclick: () => {
+              state.status = id;
+              paintChips();
+              draw();
+            }
+          },
+          label
+        )
+      )
+    );
+  }
+  paintChips();
+  draw();
+
+  const occupied = items.filter((item) => item.status === "occupied").length;
+  const vacant = items.filter((item) => item.status === "vacant").length;
+
+  return h(
+    "article",
+    null,
+    pageHead("Register", houses.title || "House directory", houses.intro),
+    h(
+      "div",
+      { class: "wrap stack" },
+      h(
+        "p",
+        { class: "meta-row" },
+        houses.registration ? h("span", { class: "tag" }, `Reg. No. ${houses.registration}`) : null,
+        h("span", null, `${items.length} entries`),
+        h("span", null, `${occupied} named households`),
+        h("span", null, `${vacant} vacant`)
+      ),
+      houses.missing?.length
+        ? h("p", { class: "fine" }, `These residence numbers are not in the register: ${houses.missing.join(", ")}.`)
+        : null,
+      h(
+        "label",
+        { class: "search" },
+        h("span", { class: "sr" }, "Search houses"),
+        icon("search"),
+        h("input", {
+          type: "search",
+          placeholder: "Search by number, house name, or resident",
+          oninput: (event) => {
+            state.query = event.target.value;
+            draw();
+          }
+        })
+      ),
+      chips,
+      count,
+      list
+    )
+  );
+}
+
+function houseTable(items) {
+  return h(
+    "table",
+    { class: "house-table" },
+    h(
+      "thead",
+      null,
+      h(
+        "tr",
+        null,
+        h("th", { scope: "col" }, "No."),
+        h("th", { scope: "col" }, "House name"),
+        h("th", { scope: "col" }, "Name in the register"),
+        h("th", { scope: "col" }, "Status")
+      )
+    ),
+    h(
+      "tbody",
+      null,
+      ...items.map((item) =>
+        h(
+          "tr",
+          null,
+          h("th", { scope: "row" }, item.number),
+          h("td", null, item.house || "—"),
+          h("td", null, item.name || "—"),
+          h("td", null, h("span", { class: `tag tag-${item.status}` }, statusLabel(item.status)))
+        )
+      )
+    )
+  );
+}
+
+function statusLabel(status) {
+  if (status === "vacant") return "Vacant";
+  if (status === "institution") return "Institution";
+  if (status === "unrecorded") return "Not recorded";
+  return "Occupied";
+}
+
+function compareHouseNumbers(a, b) {
+  return houseRank(a.number) - houseRank(b.number) || String(a.number).localeCompare(String(b.number));
+}
+
+function houseRank(number) {
+  const match = String(number).match(/^(\d+)/);
+  const base = match ? Number(match[1]) : 9999;
+  const suffix = String(number).slice(String(base).length);
+  const suffixRank = suffix.trim() ? suffix.trim().charCodeAt(0) / 1000 : 0;
+  return base + suffixRank;
 }
 
 function renderGallery(data) {

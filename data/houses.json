@@ -1,0 +1,986 @@
+{
+  "title": "House directory",
+  "registration": "2849/2005",
+  "intro": "House numbers, house names, and the names recorded in the association register. The neighbourhood map does not mark each plot: this register has no drawing that places a number on a gate or a lane.",
+  "missing": [
+    "29",
+    "49",
+    "81",
+    "105",
+    "106"
+  ],
+  "items": [
+    {
+      "number": "1",
+      "name": "Ajayakumar B",
+      "house": "Ajitha Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "2",
+      "name": "Sunitha P T",
+      "house": "Syamala Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "3",
+      "name": "Balram S S",
+      "house": "Kadayil Veedu",
+      "status": "occupied"
+    },
+    {
+      "number": "4",
+      "name": "R V Krishnan (Late)",
+      "house": "Govind Nivas",
+      "status": "occupied"
+    },
+    {
+      "number": "5",
+      "name": "A Vincent (Late)",
+      "house": "Merry Nilayam",
+      "status": "occupied"
+    },
+    {
+      "number": "6",
+      "name": "Shibu George",
+      "house": "Emmaus",
+      "status": "occupied"
+    },
+    {
+      "number": "6A",
+      "name": "",
+      "house": "",
+      "status": "unrecorded"
+    },
+    {
+      "number": "7",
+      "name": "C L Divakaran",
+      "house": "Bliss",
+      "status": "occupied"
+    },
+    {
+      "number": "8",
+      "name": "Sukumaran",
+      "house": "Gayathri",
+      "status": "occupied"
+    },
+    {
+      "number": "9",
+      "name": "K I Georgekutty",
+      "house": "Bethel",
+      "status": "occupied"
+    },
+    {
+      "number": "10",
+      "name": "Ramachandran Nair",
+      "house": "Ayodhya",
+      "status": "occupied"
+    },
+    {
+      "number": "11",
+      "name": "Laly Varghese",
+      "house": "Akkapadickal",
+      "status": "occupied"
+    },
+    {
+      "number": "12",
+      "name": "Thressiakutty George",
+      "house": "Jeevan Jyothi",
+      "status": "occupied"
+    },
+    {
+      "number": "13",
+      "name": "Radhakutty Amma",
+      "house": "Radha Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "14",
+      "name": "Flat",
+      "house": "Ammus Dale",
+      "status": "occupied"
+    },
+    {
+      "number": "15",
+      "name": "K G Sreekumar",
+      "house": "Sreegeetham",
+      "status": "occupied"
+    },
+    {
+      "number": "16",
+      "name": "Sreekandan Nair",
+      "house": "Sachin Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "17",
+      "name": "A K Shah",
+      "house": "Koniyode Puthenveedu",
+      "status": "occupied"
+    },
+    {
+      "number": "18",
+      "name": "Jayachandran Nair",
+      "house": "Madom Puthenveedu",
+      "status": "occupied"
+    },
+    {
+      "number": "19",
+      "name": "Kannan",
+      "house": "Koniyode Puthenveedu",
+      "status": "occupied"
+    },
+    {
+      "number": "20",
+      "name": "Elias K T",
+      "house": "Deepthy",
+      "status": "occupied"
+    },
+    {
+      "number": "21",
+      "name": "George Joseph",
+      "house": "Kamukumthottathil",
+      "status": "occupied"
+    },
+    {
+      "number": "22",
+      "name": "P Saraswathy Amma",
+      "house": "Saraswathy Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "23",
+      "name": "C Kochukrishnan Nair",
+      "house": "Sreesailom",
+      "status": "occupied"
+    },
+    {
+      "number": "24",
+      "name": "Raveendran Nair",
+      "house": "Sreenilayam",
+      "status": "occupied"
+    },
+    {
+      "number": "24A",
+      "name": "Sylaja Devi",
+      "house": "Sreenilayam",
+      "status": "occupied"
+    },
+    {
+      "number": "25",
+      "name": "",
+      "house": "",
+      "status": "vacant"
+    },
+    {
+      "number": "26",
+      "name": "Anilkumar G T",
+      "house": "Upasana",
+      "status": "occupied"
+    },
+    {
+      "number": "26A",
+      "name": "Vijayan M",
+      "house": "Nandana Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "26B",
+      "name": "Satheesh V",
+      "house": "Vivaiga",
+      "status": "occupied"
+    },
+    {
+      "number": "27",
+      "name": "Rema K",
+      "house": "Tower View",
+      "status": "occupied"
+    },
+    {
+      "number": "28",
+      "name": "Mohankumar",
+      "house": "Prasanthi",
+      "status": "occupied"
+    },
+    {
+      "number": "30",
+      "name": "Rakesh",
+      "house": "Bhavayami",
+      "status": "occupied"
+    },
+    {
+      "number": "30A",
+      "name": "Pradeesh",
+      "house": "Sarangi",
+      "status": "occupied"
+    },
+    {
+      "number": "30B",
+      "name": "Dr. Ajithkumar",
+      "house": "Devalakshmi",
+      "status": "occupied"
+    },
+    {
+      "number": "30C",
+      "name": "Shyju Mathew",
+      "house": "Royal Life",
+      "status": "occupied"
+    },
+    {
+      "number": "30D",
+      "name": "Sathi Raghu",
+      "house": "Neelambari",
+      "status": "occupied"
+    },
+    {
+      "number": "31",
+      "name": "Sobhanakumari",
+      "house": "Sreesailom",
+      "status": "occupied"
+    },
+    {
+      "number": "32",
+      "name": "Vijayakumari",
+      "house": "Sreevalsom",
+      "status": "occupied"
+    },
+    {
+      "number": "33",
+      "name": "Suraj R",
+      "house": "Padmavilasom",
+      "status": "occupied"
+    },
+    {
+      "number": "34",
+      "name": "Usha Raghuvaran",
+      "house": "Swapna Koodu",
+      "status": "occupied"
+    },
+    {
+      "number": "35",
+      "name": "Sajeev",
+      "house": "Indeevaram",
+      "status": "occupied"
+    },
+    {
+      "number": "36",
+      "name": "Manikandan Nair",
+      "house": "Ajinam, Pullayil",
+      "status": "occupied"
+    },
+    {
+      "number": "37",
+      "name": "Vijayakumar M",
+      "house": "Liji",
+      "status": "occupied"
+    },
+    {
+      "number": "38",
+      "name": "Anilkumar",
+      "house": "Nadanam",
+      "status": "occupied"
+    },
+    {
+      "number": "39",
+      "name": "Mathew Joseph",
+      "house": "Vadackal",
+      "status": "occupied"
+    },
+    {
+      "number": "40",
+      "name": "Naveen Babu",
+      "house": "Navaneetham",
+      "status": "occupied"
+    },
+    {
+      "number": "41",
+      "name": "Roy Joseph",
+      "house": "Puthuparambil",
+      "status": "occupied"
+    },
+    {
+      "number": "42",
+      "name": "Usha Raghuvaran",
+      "house": "Ushus",
+      "status": "occupied"
+    },
+    {
+      "number": "43",
+      "name": "Raveendran Nair G",
+      "house": "Gangothri",
+      "status": "occupied"
+    },
+    {
+      "number": "43A",
+      "name": "Praveen S R",
+      "house": "Vrindavanm",
+      "status": "occupied"
+    },
+    {
+      "number": "44",
+      "name": "Pradeep D R",
+      "house": "Meenakshimandiram",
+      "status": "occupied"
+    },
+    {
+      "number": "44A",
+      "name": "Pradeep D R",
+      "house": "Himam",
+      "status": "occupied"
+    },
+    {
+      "number": "44B",
+      "name": "Vidhukrishnan R",
+      "house": "Manasam",
+      "status": "occupied"
+    },
+    {
+      "number": "45",
+      "name": "Thomas E",
+      "house": "Muthiraparambil",
+      "status": "occupied"
+    },
+    {
+      "number": "46",
+      "name": "Kumari Ambika P",
+      "house": "Thiruvonam",
+      "status": "occupied"
+    },
+    {
+      "number": "47",
+      "name": "Asha",
+      "house": "Sreesuguna",
+      "status": "occupied"
+    },
+    {
+      "number": "48",
+      "name": "Asha",
+      "house": "Panamootuvilakam",
+      "status": "occupied"
+    },
+    {
+      "number": "50",
+      "name": "Sureshkumar V",
+      "house": "Uthradam",
+      "status": "occupied"
+    },
+    {
+      "number": "51",
+      "name": "",
+      "house": "",
+      "status": "vacant"
+    },
+    {
+      "number": "52",
+      "name": "Geetha Minilal",
+      "house": "Nandhanam",
+      "status": "occupied"
+    },
+    {
+      "number": "53",
+      "name": "",
+      "house": "",
+      "status": "vacant"
+    },
+    {
+      "number": "54",
+      "name": "Nellai S Muthu (Late)",
+      "house": "Swarnam",
+      "status": "occupied"
+    },
+    {
+      "number": "55",
+      "name": "Church",
+      "house": "Church",
+      "status": "institution"
+    },
+    {
+      "number": "56",
+      "name": "Thampy Pathrose",
+      "house": "Church House",
+      "status": "occupied"
+    },
+    {
+      "number": "57",
+      "name": "Sarala E",
+      "house": "Valsala Sadanam",
+      "status": "occupied"
+    },
+    {
+      "number": "58",
+      "name": "Raghunathan Nair",
+      "house": "Bindhu Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "58A",
+      "name": "Indira",
+      "house": "Indiralayam",
+      "status": "occupied"
+    },
+    {
+      "number": "59",
+      "name": "Renju S R",
+      "house": "Renju Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "60",
+      "name": "Ambika S",
+      "house": "Chandralekha Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "61",
+      "name": "Prasanna",
+      "house": "Dhanya Deepam",
+      "status": "occupied"
+    },
+    {
+      "number": "62",
+      "name": "Jayakumar",
+      "house": "Revathi Nilayam",
+      "status": "occupied"
+    },
+    {
+      "number": "63",
+      "name": "Ambika S",
+      "house": "Chandralekha Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "64",
+      "name": "Hrishikesh S K",
+      "house": "Kalayani",
+      "status": "occupied"
+    },
+    {
+      "number": "65",
+      "name": "Thankachi",
+      "house": "Sangeetha Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "66",
+      "name": "",
+      "house": "",
+      "status": "vacant"
+    },
+    {
+      "number": "67",
+      "name": "Suresh Kumar",
+      "house": "Valiyaveetuvilakom",
+      "status": "occupied"
+    },
+    {
+      "number": "68",
+      "name": "Sminju",
+      "house": "Panamparampil House",
+      "status": "occupied"
+    },
+    {
+      "number": "69",
+      "name": "Mohandas C V",
+      "house": "Souparnika",
+      "status": "occupied"
+    },
+    {
+      "number": "70",
+      "name": "Sureshbabu T",
+      "house": "Joy House",
+      "status": "occupied"
+    },
+    {
+      "number": "70A",
+      "name": "Mohanan Nair",
+      "house": "Greeshmam",
+      "status": "occupied"
+    },
+    {
+      "number": "70B",
+      "name": "Joy T",
+      "house": "Gilgal",
+      "status": "occupied"
+    },
+    {
+      "number": "70C",
+      "name": "Rajan T",
+      "house": "Rajan House",
+      "status": "occupied"
+    },
+    {
+      "number": "70D",
+      "name": "Ashwil J S",
+      "house": "Marvella Nakshatra",
+      "status": "occupied"
+    },
+    {
+      "number": "71",
+      "name": "Jayakumari",
+      "house": "Jayaprabha Nivas",
+      "status": "occupied"
+    },
+    {
+      "number": "72",
+      "name": "Justin George",
+      "house": "Thoppil",
+      "status": "occupied"
+    },
+    {
+      "number": "72A",
+      "name": "Baby Emmanuel",
+      "house": "Emmanuels",
+      "status": "occupied"
+    },
+    {
+      "number": "72B",
+      "name": "T Shamsudeen",
+      "house": "Similu",
+      "status": "occupied"
+    },
+    {
+      "number": "72C",
+      "name": "Unnikrishnan",
+      "house": "Ubihaha",
+      "status": "occupied"
+    },
+    {
+      "number": "73",
+      "name": "Surendran Nair G",
+      "house": "Nanthanam",
+      "status": "occupied"
+    },
+    {
+      "number": "73A",
+      "name": "Biji T",
+      "house": "Izzath",
+      "status": "occupied"
+    },
+    {
+      "number": "73B",
+      "name": "Priya G",
+      "house": "Bodhi",
+      "status": "occupied"
+    },
+    {
+      "number": "73C",
+      "name": "Anil Krishnan B",
+      "house": "Hridyam",
+      "status": "occupied"
+    },
+    {
+      "number": "74",
+      "name": "Jayakumar M V",
+      "house": "Thiruvonam",
+      "status": "occupied"
+    },
+    {
+      "number": "74A",
+      "name": "Ajayan K",
+      "house": "Anjima Nivas",
+      "status": "occupied"
+    },
+    {
+      "number": "75",
+      "name": "Surendran S",
+      "house": "Bharathi Vilasom",
+      "status": "occupied"
+    },
+    {
+      "number": "76",
+      "name": "Sudhakaran",
+      "house": "Ayillyam",
+      "status": "occupied"
+    },
+    {
+      "number": "76A",
+      "name": "Sreelekha",
+      "house": "Sivasree",
+      "status": "occupied"
+    },
+    {
+      "number": "76B",
+      "name": "Sam J Kumar",
+      "house": "Bethlehem",
+      "status": "occupied"
+    },
+    {
+      "number": "77",
+      "name": "Hari K",
+      "house": "Pournami",
+      "status": "occupied"
+    },
+    {
+      "number": "78",
+      "name": "R Babu",
+      "house": "Thiruvonam",
+      "status": "occupied"
+    },
+    {
+      "number": "78A",
+      "name": "Radha A K",
+      "house": "Kripa",
+      "status": "occupied"
+    },
+    {
+      "number": "78B",
+      "name": "Ajith",
+      "house": "Chaithanya",
+      "status": "occupied"
+    },
+    {
+      "number": "78C",
+      "name": "Anilkumar / Suma",
+      "house": "Sreelakshmi",
+      "status": "occupied"
+    },
+    {
+      "number": "78D",
+      "name": "Pradeesh",
+      "house": "Vismaya",
+      "status": "occupied"
+    },
+    {
+      "number": "78E",
+      "name": "Dipunath V S",
+      "house": "Devus",
+      "status": "occupied"
+    },
+    {
+      "number": "78F",
+      "name": "Shahinsha",
+      "house": "Raahath",
+      "status": "occupied"
+    },
+    {
+      "number": "78G",
+      "name": "Ragesh T V",
+      "house": "Kalyani",
+      "status": "occupied"
+    },
+    {
+      "number": "78H",
+      "name": "Rojan Mathew",
+      "house": "Mizpah",
+      "status": "occupied"
+    },
+    {
+      "number": "79",
+      "name": "Vinu A",
+      "house": "Vineetha Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "80",
+      "name": "Satheesan",
+      "house": "Ranjini Nilayam",
+      "status": "occupied"
+    },
+    {
+      "number": "82",
+      "name": "Anilkumar S",
+      "house": "Mohanavilasam",
+      "status": "occupied"
+    },
+    {
+      "number": "83",
+      "name": "Kamalasanan S",
+      "house": "Grace Cottage",
+      "status": "occupied"
+    },
+    {
+      "number": "83A",
+      "name": "Ajish V Nair",
+      "house": "Dev Asri",
+      "status": "occupied"
+    },
+    {
+      "number": "84",
+      "name": "Prakash S",
+      "house": "Kunnathuvilaveedu",
+      "status": "occupied"
+    },
+    {
+      "number": "85",
+      "name": "Radha A K",
+      "house": "Aji Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "85A",
+      "name": "Babu",
+      "house": "Kudajadri",
+      "status": "occupied"
+    },
+    {
+      "number": "86",
+      "name": "R Sreelekha",
+      "house": "Sivasree",
+      "status": "occupied"
+    },
+    {
+      "number": "87",
+      "name": "Joseph George",
+      "house": "George Bros, Kumblasseriyil",
+      "status": "occupied"
+    },
+    {
+      "number": "87A",
+      "name": "Jose George",
+      "house": "Kalariparambil",
+      "status": "occupied"
+    },
+    {
+      "number": "88",
+      "name": "Thomas T S",
+      "house": "Kanivu",
+      "status": "occupied"
+    },
+    {
+      "number": "89",
+      "name": "Sasidharan Nair",
+      "house": "Aswathy Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "90",
+      "name": "Sobha Mohan",
+      "house": "Mohanavilasam",
+      "status": "occupied"
+    },
+    {
+      "number": "91",
+      "name": "Jayakumari",
+      "house": "Nandanam",
+      "status": "occupied"
+    },
+    {
+      "number": "91A",
+      "name": "Dhanikumar",
+      "house": "Sivaganga",
+      "status": "occupied"
+    },
+    {
+      "number": "92",
+      "name": "Sobha Mohan",
+      "house": "Mohanavilasam",
+      "status": "occupied"
+    },
+    {
+      "number": "93",
+      "name": "Deepa P",
+      "house": "Manjusha Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "93A",
+      "name": "Sureshkumar",
+      "house": "Elanjickal",
+      "status": "occupied"
+    },
+    {
+      "number": "94",
+      "name": "Ajithkumar",
+      "house": "Murukavilasam",
+      "status": "occupied"
+    },
+    {
+      "number": "95",
+      "name": "Vasantha Bhaskaran",
+      "house": "Sathivilasam",
+      "status": "occupied"
+    },
+    {
+      "number": "96",
+      "name": "Leela B",
+      "house": "Vinusadanam",
+      "status": "occupied"
+    },
+    {
+      "number": "97",
+      "name": "Priji",
+      "house": "Priyankabhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "97A",
+      "name": "Sam",
+      "house": "Sams",
+      "status": "occupied"
+    },
+    {
+      "number": "98",
+      "name": "Janaki",
+      "house": "Saraswathybhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "98A",
+      "name": "Ramachandran Nair",
+      "house": "Ramanilayam",
+      "status": "occupied"
+    },
+    {
+      "number": "99",
+      "name": "Muraleedharan S",
+      "house": "Sree Aiswariam",
+      "status": "occupied"
+    },
+    {
+      "number": "99A",
+      "name": "Muraleedharan S",
+      "house": "Abhishekam",
+      "status": "occupied"
+    },
+    {
+      "number": "99B",
+      "name": "Prakash P Nair",
+      "house": "Bharatheeyam",
+      "status": "occupied"
+    },
+    {
+      "number": "99C",
+      "name": "Sajikumar M",
+      "house": "Krishnashila",
+      "status": "occupied"
+    },
+    {
+      "number": "99D",
+      "name": "Nithin V L",
+      "house": "Nidhi",
+      "status": "occupied"
+    },
+    {
+      "number": "100",
+      "name": "Ramesan Nair",
+      "house": "Valsala Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "100A",
+      "name": "Dr. Biju R I",
+      "house": "Nivedyam",
+      "status": "occupied"
+    },
+    {
+      "number": "101",
+      "name": "Anjana Devi A K",
+      "house": "Souparnika",
+      "status": "occupied"
+    },
+    {
+      "number": "102",
+      "name": "Rajendran Nair",
+      "house": "Aswathy Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "102A",
+      "name": "Sunilkumar",
+      "house": "Avanthika",
+      "status": "occupied"
+    },
+    {
+      "number": "103",
+      "name": "Suku V",
+      "house": "Puthuvelputhenveedu",
+      "status": "occupied"
+    },
+    {
+      "number": "104",
+      "name": "Babu S",
+      "house": "Puthuvalputhenveedu",
+      "status": "occupied"
+    },
+    {
+      "number": "107",
+      "name": "Vijayakymar C",
+      "house": "Sreekalabhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "108",
+      "name": "Sreekumaran Nair (Babu)",
+      "house": "Karthika",
+      "status": "occupied"
+    },
+    {
+      "number": "109",
+      "name": "Biju C S",
+      "house": "Sreemangalam",
+      "status": "occupied"
+    },
+    {
+      "number": "110",
+      "name": "Bindhu C S",
+      "house": "Saraswathy Bhavan",
+      "status": "occupied"
+    },
+    {
+      "number": "110A",
+      "name": "Binu C Nair",
+      "house": "Kalyani",
+      "status": "occupied"
+    },
+    {
+      "number": "111",
+      "name": "Mohanan Nair",
+      "house": "Midhunam",
+      "status": "occupied"
+    },
+    {
+      "number": "112",
+      "name": "Vijayakumar",
+      "house": "Vijayendhu",
+      "status": "occupied"
+    },
+    {
+      "number": "113",
+      "name": "G Jayakumar",
+      "house": "Arunodayam",
+      "status": "occupied"
+    },
+    {
+      "number": "114",
+      "name": "Krishnankutty Nair",
+      "house": "Krishna Vilasom",
+      "status": "occupied"
+    },
+    {
+      "number": "115",
+      "name": "Anilkumar R",
+      "house": "Sindhu Nivas",
+      "status": "occupied"
+    },
+    {
+      "number": "115A",
+      "name": "Anilkumar R",
+      "house": "Nakshatra",
+      "status": "occupied"
+    },
+    {
+      "number": "116",
+      "name": "Temple",
+      "house": "Temple",
+      "status": "institution"
+    },
+    {
+      "number": "117 & 118",
+      "name": "Vanaja, Syam",
+      "house": "Praniyathuveedu",
+      "status": "occupied"
+    },
+    {
+      "number": "119",
+      "name": "Satheesh Chandran",
+      "house": "Sivaganga",
+      "status": "occupied"
+    },
+    {
+      "number": "120",
+      "name": "Unnikrishnan Potti",
+      "house": "Chithra Mayooram",
+      "status": "occupied"
+    }
+  ]
+}

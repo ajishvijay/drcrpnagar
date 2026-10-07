@@ -19,7 +19,8 @@ const RESOURCES = [
   "gallery",
   "contacts",
   "documents",
-  "emergency"
+  "emergency",
+  "houses"
 ];
 
 export async function loadAll() {
