@@ -10,16 +10,16 @@ With XAMPP, open [http://localhost/drcrpnagar/](http://localhost/drcrpnagar/).
 
 Pretty addresses such as `/drcrpnagar/notices` need Apache `mod_rewrite`, which XAMPP includes. The rule is in `.htaccess`.
 
-## Publish on Cloudflare Pages
+## Publish on Cloudflare
 
-1. Push this folder to a GitHub repository.
-2. In Cloudflare, create a Pages project and connect that repository.
-3. Framework preset: None.
-4. Build command: leave empty.
-5. Build output directory: `/`
-6. Deploy, then add a custom domain if you have one.
+The site is a static Worker. `wrangler.jsonc` tells Cloudflare to publish these files and to serve `index.html` for addresses such as `/notices`.
 
-`_redirects` sends every address to `index.html` so pages such as `/notices` and `/emergency` work. Real files — CSS, data, documents, and images — are still served as themselves.
+1. In Cloudflare, open **Workers & Pages** and connect this GitHub repository.
+2. Leave the build command empty.
+3. Leave the deploy command as `npx wrangler deploy`.
+4. Deploy, then add a custom domain if you have one.
+
+The live address appears on the project page after a successful deploy. It usually looks like `https://drcrpnagar.<account>.workers.dev`.
 
 ## What to edit
 

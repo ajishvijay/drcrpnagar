@@ -1,0 +1,8 @@
+{
+  "name": "drcrpnagar",
+  "compatibility_date": "2026-10-07",
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "single-page-application"
+  }
+}
