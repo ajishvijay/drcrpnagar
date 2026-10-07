@@ -1,5 +1,5 @@
-import { h } from "./dom.js?v=3";
-import { icon } from "./icons.js?v=3";
+import { h } from "./dom.js?v=4";
+import { icon } from "./icons.js?v=4";
 import {
   addressLines,
   sortNotices,
@@ -13,7 +13,7 @@ import {
   telHref,
   upcoming,
   waHref
-} from "./format.js?v=3";
+} from "./format.js?v=4";
 
 const ROUTES = [
   { re: /^\/$/, name: "home", title: () => "Home" },

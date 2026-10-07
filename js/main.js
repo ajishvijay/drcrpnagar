@@ -1,8 +1,8 @@
-import { loadAll } from "./api.js?v=3";
-import { h } from "./dom.js?v=3";
-import { mountShell, setActive, closeMenus } from "./layout.js?v=3";
-import { pageTitle, renderPage } from "./pages.js?v=3";
-import { isInternalPage, navigate, onRoute, sitePath } from "./router.js?v=3";
+import { loadAll } from "./api.js?v=4";
+import { h } from "./dom.js?v=4";
+import { mountShell, setActive, closeMenus } from "./layout.js?v=4";
+import { pageTitle, renderPage } from "./pages.js?v=4";
+import { isInternalPage, navigate, onRoute, sitePath } from "./router.js?v=4";
 
 let data = null;
 

@@ -1,6 +1,6 @@
-import { h } from "./dom.js?v=3";
-import { icon } from "./icons.js?v=3";
-import { addressLines, formatDate, waHref } from "./format.js?v=3";
+import { h } from "./dom.js?v=4";
+import { icon } from "./icons.js?v=4";
+import { addressLines, formatDate, waHref } from "./format.js?v=4";
 
 const PRIMARY = [
   { href: "./", label: "Home", id: "home" },
@@ -99,7 +99,7 @@ function header(site) {
       h(
         "a",
         { class: "brand", href: "./" },
-        h("img", { src: "assets/logo.svg", alt: "", width: "44", height: "44" }),
+        h("img", { src: "assets/logo.svg?v=4", alt: "", width: "44", height: "44" }),
         h(
           "span",
           null,
