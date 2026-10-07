@@ -1,5 +1,5 @@
-import { h } from "./dom.js";
-import { icon } from "./icons.js";
+import { h } from "./dom.js?v=3";
+import { icon } from "./icons.js?v=3";
 import {
   addressLines,
   sortNotices,
@@ -13,7 +13,7 @@ import {
   telHref,
   upcoming,
   waHref
-} from "./format.js";
+} from "./format.js?v=3";
 
 const ROUTES = [
   { re: /^\/$/, name: "home", title: () => "Home" },
@@ -75,7 +75,7 @@ const PAGES = {
 };
 
 function renderHome(data) {
-  const { site, notices, events, about, committee, documents } = data;
+  const { site, notices, events, about, committee, documents, houses } = data;
   const latest = sortNotices(notices.items).slice(0, 3);
   const nextEvents = upcoming(events.items).slice(0, 2);
   const featured = latest[0];
@@ -135,6 +135,7 @@ function renderHome(data) {
       h(
         "div",
         { class: "wrap tile-grid" },
+        tile("houses", "home", "Houses", `${houses?.items?.length || 0} in the register`),
         tile("notices", "bell", "Notices", `${notices.items.length} on the board`),
         tile("events", "calendar", "Events", `${upcoming(events.items).length} coming up`),
         tile("documents", "file", "Documents", `${documents.items.length} forms and papers`),

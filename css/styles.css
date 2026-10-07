@@ -336,7 +336,7 @@ a { color: var(--leaf); }
   gap: 12px;
 }
 
-.tile-grid { grid-template-columns: repeat(4, 1fr); }
+.tile-grid { grid-template-columns: repeat(5, 1fr); }
 .card-grid { grid-template-columns: repeat(3, 1fr); }
 .info-grid, .committee-grid { grid-template-columns: repeat(2, 1fr); }
 .role-row { grid-template-columns: repeat(5, 1fr); }

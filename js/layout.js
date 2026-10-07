@@ -1,6 +1,6 @@
-import { h } from "./dom.js";
-import { icon } from "./icons.js";
-import { addressLines, formatDate, waHref } from "./format.js";
+import { h } from "./dom.js?v=3";
+import { icon } from "./icons.js?v=3";
+import { addressLines, formatDate, waHref } from "./format.js?v=3";
 
 const PRIMARY = [
   { href: "./", label: "Home", id: "home" },
